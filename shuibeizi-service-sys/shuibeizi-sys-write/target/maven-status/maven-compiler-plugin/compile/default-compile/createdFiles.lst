@@ -1,0 +1,4 @@
+com\shuibeizi\sys\write\producer\SysUserApiWrite.class
+com\shuibeizi\sys\write\impl\SysUserServiceWrite.class
+com\shuibeizi\sys\write\intercept\ApiAspectj.class
+com\shuibeizi\sys\write\startup\ShuiBeiZiSysWriteStartup.class

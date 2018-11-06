@@ -1,0 +1,54 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /shuibeizi
+spring:
+  application:
+    name: shuibeizi-admin
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shuibeizi?useUnicode=true&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 20
+      idle-timeout: 3500000
+      max-lifetime: 21600000
+      data-source-properties:
+        cache-prep-stmts: true
+        use-server-prep-stmts: true
+        prep-stmt-cache-size: 250
+        prep-stmt-cache-sql-limit: 2048
+
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+  MaxAutoRetries: 0 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 0 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false  #是否所有操作都重试
+
+eureka:
+  client:
+    prefer-same-zone-eureka: false
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://116.62.149.166:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+logging:
+  config: classpath:log4j2.xml
+feign:
+  httpclient:
+    connection-timeout: 5000
+#  hystrix:
+#    enabled: true
+#    threadpool:
+#      default:
+#        coreSize: 1
+#        maxQueueSize: -1
+#        queueSizeRejectionThreshold: 1

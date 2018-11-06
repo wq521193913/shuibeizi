@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/code-generator/code-generator.iml" filepath="$PROJECT_DIR$/code-generator/code-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shuibeizi.iml" filepath="$PROJECT_DIR$/.idea/shuibeizi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-admin/shuibeizi-admin.iml" filepath="$PROJECT_DIR$/shuibeizi-admin/shuibeizi-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-common/shuibeizi-common.iml" filepath="$PROJECT_DIR$/shuibeizi-common/shuibeizi-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-eureka-server/shuibeizi-eureka-server.iml" filepath="$PROJECT_DIR$/shuibeizi-eureka-server/shuibeizi-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-service-sys.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-service-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-api/shuibeizi-sys-api.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-api/shuibeizi-sys-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-dao/shuibeizi-sys-dao.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-dao/shuibeizi-sys-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-entity/shuibeizi-sys-entity.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-entity/shuibeizi-sys-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-read/shuibeizi-sys-read.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-read/shuibeizi-sys-read.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-write/shuibeizi-sys-write.iml" filepath="$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-write/shuibeizi-sys-write.iml" />
+    </modules>
+  </component>
+</project>

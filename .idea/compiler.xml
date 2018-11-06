@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="code-generator" />
+        <module name="shuibeizi-admin" />
+        <module name="shuibeizi-common" />
+        <module name="shuibeizi-eureka-server" />
+        <module name="shuibeizi-sys-api" />
+        <module name="shuibeizi-sys-dao" />
+        <module name="shuibeizi-sys-entity" />
+        <module name="shuibeizi-sys-read" />
+        <module name="shuibeizi-sys-write" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-generator" target="7" />
+      <module name="shuibeizi-admin" target="1.8" />
+      <module name="shuibeizi-common" target="1.8" />
+      <module name="shuibeizi-eureka-server" target="1.8" />
+      <module name="shuibeizi-service-sys" target="1.8" />
+      <module name="shuibeizi-sys-api" target="1.8" />
+      <module name="shuibeizi-sys-dao" target="1.8" />
+      <module name="shuibeizi-sys-entity" target="1.8" />
+      <module name="shuibeizi-sys-read" target="1.8" />
+      <module name="shuibeizi-sys-write" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

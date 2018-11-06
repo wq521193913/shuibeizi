@@ -1,0 +1,24 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: 116.62.149.166
+    prefer-ip-address: true
+    ip-address: 116.62.149.166
+  server:
+    enable-self-preservation: false
+  client:
+    healthcheck:
+      enabled: true
+    registerWithEureka: false
+    fetchRegistry: false
+    prefer-same-zone-eureka: false
+    serviceUrl:
+      defaultZone: http://116.62.149.166/eureka/
+
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false

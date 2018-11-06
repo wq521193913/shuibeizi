@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/code-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-read" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shuibeizi-service-sys/shuibeizi-sys-write" charset="UTF-8" />
+  </component>
+</project>

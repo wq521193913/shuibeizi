@@ -1,0 +1,27 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: shuibeizi-gateway
+  redis:
+    host: localhost
+    password: redis2017
+    port: 6379
+  cloud:
+    gateway:
+      default-filters:
+        name: RequestRateLimiter
+        args:
+          redis-rate-limiter.replenishRate: 10
+          redis-rate-limiter.burstCapacity: 20
+          key-resolver: "#{@apiKeyResolver}"
+      routes:
+      - id: route
+        uri: http://www.shuibeizi.com:9002
+        predicates:
+        - Path=/**
+        filters:
+        - Token
+
+logging:
+  config: classpath:log4j2.xml
