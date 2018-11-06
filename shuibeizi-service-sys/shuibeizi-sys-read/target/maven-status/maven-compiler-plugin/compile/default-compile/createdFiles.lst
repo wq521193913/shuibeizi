@@ -1,4 +1,0 @@
-com\shuibeizi\sys\read\impl\SysUserServiceRead.class
-com\shuibeizi\sys\read\producer\SysUserApiRead.class
-com\shuibeizi\sys\read\startup\ShuiBeiZiSysReadStartup.class
-com\shuibeizi\sys\read\intercept\ApiAspectj.class
